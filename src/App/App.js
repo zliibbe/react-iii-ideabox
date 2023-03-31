@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import Ideas from './Ideas';
-import Form from './Form';
+import Ideas from '../Ideas/Ideas';
+import Form from '../Form/Form';
 import './App.css';
 
 const App = () => {
