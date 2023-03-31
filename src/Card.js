@@ -5,7 +5,7 @@ const Card = ({ title, description, id, deleteIdea, isFavorited }) => {
   return (
     <div className={`card ${isFavorited && 'favorite'}`}>
       <h3>{title}</h3>
-      <p>{description}</p>
+      <p>[{description}]</p>
       <button onClick={() => deleteIdea(id)}>🗑</button>
     </div>
   )
